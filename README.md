@@ -1,13 +1,13 @@
 AWS AMI SEARCH Terraform module
 =================================
 
-Terraform module to find the last version of an AWS Ami IDs for working region.
+Terraform module to find the last version of an AWS Ami IDs for working region, using common os name.
 
 
 Usage
 --------
 
-Choose an Os from the below list : 
+Set the 'os' var from the below list : 
 
 ```
 # Linux
