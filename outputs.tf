@@ -4,6 +4,6 @@ output "ami_id" {
 }
 
 output "root_device_name" {
-  desription = "The device name of the root dev"
+  description = "The device name of the root dev"
   value = "${data.aws_ami.search.root_device_name}"
 }

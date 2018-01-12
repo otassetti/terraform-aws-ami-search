@@ -18,7 +18,9 @@ centos-7
 rhel-6
 rhel-7
 debian-8
+debian-9
 amazon
+amazon-2_lts
 suse-les-12
 
 
@@ -34,8 +36,8 @@ Examples
 --------
 
 ```hcl
-module "ami-search" {
-  source = "github.com/otassetti/terraform-aws-ami-search"
+module "ami-search" {=
+  source  = "otassetti/ami-search/aws"
   os = "windows-2016-base"
 }
 
