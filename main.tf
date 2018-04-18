@@ -8,7 +8,7 @@ data "aws_ami" "search" {
   }
 
   name_regex = "${lookup("${var.amis_os_map_regex}", "${var.os}")}"
-  owners = ["${distinct(concat(compact(var.amis_primary_owners), [lookup(var.amis_os_map_owners, var.os)]))}"]
+  owners = ["${distinct(concat(compact(var.amis_primary_owners), list(lookup(var.amis_os_map_owners, var.os))))}"]
 }
 
 
