@@ -36,7 +36,7 @@ Examples
 --------
 
 ```hcl
-module "ami-search" {=
+module "ami-search" {
   source  = "otassetti/ami-search/aws"
   os = "windows-2016-base"
 }
