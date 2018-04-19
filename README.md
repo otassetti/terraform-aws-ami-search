@@ -11,20 +11,27 @@ Set the 'os' var from the below list :
 
 ```
 # Linux
+ubuntu -> ubuntu-16.04
 ubuntu-14.04
 ubuntu-16.04
+centos -> centos-7
 centos-6
 centos-7
+rhel -> rhel-7
 rhel-6
 rhel-7
+debian -> debian-9
 debian-8
 debian-9
+fedora-27
 amazon
 amazon-2_lts
+suse-les -> suse-les-12
 suse-les-12
 
 
 # Windows
+windows -> windows-2016-base
 windows-2016-base
 windows-2012-r2-base
 windows-2008-r2-base
