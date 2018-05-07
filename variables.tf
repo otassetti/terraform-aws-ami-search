@@ -3,8 +3,8 @@ variable "os" {
 }
 
 variable "amis_primary_owners" {
-   description = "The primary AWS owners priors the official and public owner"
-   default     = ["self"]
+   description = "Force the ami Owner, could be (self) or specific (id)"
+   default     = ""
 }
 
 variable "amis_os_map_regex" {
