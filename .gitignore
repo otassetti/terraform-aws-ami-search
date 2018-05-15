@@ -1,6 +1,13 @@
-# Compiled files
-*.tfstate
-*.tfstate.backup
+# Created by .ignore support plugin (hsz.mobi)
+### Terraform template
+#  Local .terraform directories
+**/.terraform/*
 
-# Module directory
-.terraform/
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+.idea/

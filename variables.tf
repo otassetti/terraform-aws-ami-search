@@ -2,6 +2,11 @@ variable "os" {
    description = "The Os reference to search for"
 }
 
+variable "amis_primary_owners" {
+   description = "Force the ami Owner, could be (self) or specific (id)"
+   default     = ""
+}
+
 variable "amis_os_map_regex" {
   description = "Map of regex to search amis"
   type = "map"
@@ -30,7 +35,6 @@ variable "amis_os_map_regex" {
     windows-2008-r2-base = "^Windows_Server-2008-R2_SP1-English-64Bit-Base-.*"
   }
 }
-
 
 variable "amis_os_map_owners" {
   description = "Map of amis owner to filter only official amis"
