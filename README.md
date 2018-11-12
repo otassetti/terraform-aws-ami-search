@@ -45,7 +45,7 @@ Examples
 ```hcl
 module "ami-search" {
   source  = "otassetti/ami-search/aws"
-  os = "windows-2016-base"
+  os = "centos-7"
 }
 
 resource "aws_instance" "web" {
