@@ -32,6 +32,7 @@ variable "amis_os_map_regex" {
     windows      = "^Windows_Server-2016-English-Full-Base-.*"
     windows-2016-base    = "^Windows_Server-2016-English-Full-Base-.*"
     windows-2012-r2-base = "^Windows_Server-2012-R2_RTM-English-64Bit-Base-.*"
+    windows-2012-base    = "^Windows_Server-2012-RTM-English-64Bit-Base-.*"
     windows-2008-r2-base = "^Windows_Server-2008-R2_SP1-English-64Bit-Base-.*"
   }
 }
@@ -60,6 +61,7 @@ variable "amis_os_map_owners" {
       windows              = "801119661308" #amazon
       windows-2016-base    = "801119661308" #amazon
       windows-2012-r2-base = "801119661308" #amazon
+      windows-2012-base    = "801119661308" #amazon
       windows-2008-r2-base = "801119661308" #amazon
   }
 }
