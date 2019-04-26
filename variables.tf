@@ -15,6 +15,9 @@ variable "amis_os_map_regex" {
     ubuntu       = "^ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-.*"
     ubuntu-14.04 = "^ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-.*"
     ubuntu-16.04 = "^ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-.*"
+    ubuntu-18.04 = "^ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-.*"
+    ubuntu-18.10 = "^ubuntu/images/hvm-ssd/ubuntu-cosmic-18.10-amd64-server-.*"
+    ubuntu-19.04 = "^ubuntu/images/hvm-ssd/ubuntu-disco-19.04-amd64-server-.*"
     centos       = "^CentOS Linux 7.*"
     centos-6     = "^CentOS Linux 6.*"
     centos-7     = "^CentOS Linux 7.*"
@@ -43,6 +46,9 @@ variable "amis_os_map_owners" {
       ubuntu       = "099720109477" #CANONICAL
       ubuntu-14.04 = "099720109477" #CANONICAL
       ubuntu-16.04 = "099720109477" #CANONICAL
+      ubuntu-18.04 = "099720109477" #CANONICAL
+      ubuntu-18.10 = "099720109477" #CANONICAL
+      ubuntu-19.04 = "099720109477" #CANONICAL
       rhel         = "309956199498" #Amazon Web Services
       rhel-6       = "309956199498" #Amazon Web Services
       rhel-7       = "309956199498" #Amazon Web Services
