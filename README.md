@@ -67,7 +67,7 @@ Limitations
 Authors
 -------
 
-Module managed by Papy [Olivier Tassetti].
+Module managed by [Olivier Tassetti].
 
 License
 -------
