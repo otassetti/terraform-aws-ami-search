@@ -32,7 +32,8 @@ variable "amis_os_map_regex" {
     amazon-2_lts = "^amzn2-ami-hvm-.*-gp2"
     suse-les     = "^suse-sles-12-sp\\d-v\\d{8}-hvm-ssd-x86_64"
     suse-les-12  = "^suse-sles-12-sp\\d-v\\d{8}-hvm-ssd-x86_64"
-    windows      = "^Windows_Server-2016-English-Full-Base-.*"
+    windows      = "^Windows_Server-2019-English-Full-Base-.*"
+    windows-2019-base    = "^Windows_Server-2019-English-Full-Base-.*"
     windows-2016-base    = "^Windows_Server-2016-English-Full-Base-.*"
     windows-2012-r2-base = "^Windows_Server-2012-R2_RTM-English-64Bit-Base-.*"
     windows-2012-base    = "^Windows_Server-2012-RTM-English-64Bit-Base-.*"
@@ -65,6 +66,7 @@ variable "amis_os_map_owners" {
       suse-les     = "013907871322" #amazon
       suse-les-12  = "013907871322" #amazon
       windows              = "801119661308" #amazon
+      windows-2019-base    = "801119661308" #amazon
       windows-2016-base    = "801119661308" #amazon
       windows-2012-r2-base = "801119661308" #amazon
       windows-2012-base    = "801119661308" #amazon
