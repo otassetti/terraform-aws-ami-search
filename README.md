@@ -3,13 +3,12 @@ AWS AMI SEARCH Terraform module
 
 Terraform module to find the last version of an AWS Ami IDs for working region, using common os name.
 
-
 Usage
 --------
 
-Set the 'os' var from the below list : 
+Set the 'os' var from the below list:
 
-```
+``` bash
 # Linux
 ubuntu -> ubuntu-16.04
 ubuntu-14.04
@@ -31,13 +30,13 @@ suse-les-12
 
 
 # Windows
-windows -> windows-2016-base
+windows -> windows-2019-base
+windows-2019-base
 windows-2016-base
 windows-2012-r2-base
+windows-2012-base
 windows-2008-r2-base
 ```
-
-
 
 Examples
 --------
@@ -65,11 +64,10 @@ Limitations
 
 * Hvm type only (Hardcoded in the filter module)
 
-
 Authors
 -------
 
-Module managed by [Olivier Tassetti].
+Module managed by Papy [Olivier Tassetti].
 
 License
 -------
