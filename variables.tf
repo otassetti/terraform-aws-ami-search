@@ -21,9 +21,11 @@ variable "amis_os_map_regex" {
     centos       = "^CentOS.Linux.7.*x86_64.*"
     centos-6     = "^CentOS.Linux.6.*x86_64.*"
     centos-7     = "^CentOS.Linux.7.*x86_64.*"
+    centos-8     = "^CentOS.Linux.8.*x86_64.*"
     rhel         = "^RHEL-7.*x86_64.*"
     rhel-6       = "^RHEL-6.*x86_64.*"
     rhel-7       = "^RHEL-7.*x86_64.*"
+    rhel-8       = "^RHEL-8.*x86_64.*"
     debian       = "^debian-stretch-.*"
     debian-8     = "^debian-jessie-.*"
     debian-9     = "^debian-stretch-.*"
@@ -55,9 +57,11 @@ variable "amis_os_map_owners" {
       rhel         = "309956199498" #Amazon Web Services
       rhel-6       = "309956199498" #Amazon Web Services
       rhel-7       = "309956199498" #Amazon Web Services
+      rhel-8       = "309956199498" #Amazon Web Services
       centos       = "679593333241"
       centos-6     = "679593333241"
       centos-7     = "679593333241"
+      centos-8     = "679593333241"
       debian       = "679593333241"
       debian-8     = "679593333241"
       debian-9     = "679593333241"
