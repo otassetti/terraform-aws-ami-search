@@ -22,6 +22,7 @@ rhel-7
 debian -> debian-9
 debian-8
 debian-9
+debian-10
 fedora-27
 amazon
 amazon-2_lts
