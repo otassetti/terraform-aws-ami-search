@@ -16,9 +16,11 @@ ubuntu-16.04
 centos -> centos-7
 centos-6
 centos-7
+centos-8
 rhel -> rhel-7
 rhel-6
 rhel-7
+rhel-8
 debian -> debian-9
 debian-8
 debian-9
