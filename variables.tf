@@ -1,10 +1,11 @@
 variable "os" {
-   description = "The Os reference to search for"
+  description = "The Os reference to search for"
+  type        = "list"
 }
 
 variable "amis_primary_owners" {
-   description = "Force the ami Owner, could be (self) or specific (id)"
-   default     = ""
+  description = "Force the ami Owner, could be (self) or specific (id)"
+  default     = ""
 }
 
 variable "amis_os_map_regex" {
