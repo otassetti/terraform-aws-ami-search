@@ -10,35 +10,35 @@ Set the 'os' var from the below list:
 
 ``` bash
 # Linux
-ubuntu -> ubuntu-16.04
-ubuntu-14.04
-ubuntu-16.04
+ubuntu -> ubuntu-22.04
+ubuntu-18.04
+ubuntu-20.04
+ubuntu-22.04
 centos -> centos-7
-centos-6
 centos-7
-centos-8
-rhel -> rhel-7
-rhel-6
+centos-9
+rhel -> rhel-8
 rhel-7
 rhel-8
-debian -> debian-9
-debian-8
-debian-9
+rhel-9
+alma -> alma-9
+alma-8
+alma-9
+debian -> debian-11
 debian-10
-fedora-27
-amazon
+debian-11
+fedora-37
 amazon-2_lts
+amazon-2023
 suse-les -> suse-les-12
 suse-les-12
 
 
 # Windows
-windows -> windows-2019-base
+windows -> windows-2022-base
+windows-2022-base
 windows-2019-base
 windows-2016-base
-windows-2012-r2-base
-windows-2012-base
-windows-2008-r2-base
 ```
 
 Examples
