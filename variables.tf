@@ -1,9 +1,11 @@
 variable "os" {
   description = "The Os reference to search for"
+  type        = string
 }
 
 variable "amis_primary_owners" {
   description = "Force the ami Owner, could be (self) or specific (id)"
+  type        = string
   default     = ""
 }
 
