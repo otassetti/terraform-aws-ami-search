@@ -21,12 +21,16 @@ rhel -> rhel-8
 rhel-7
 rhel-8
 rhel-9
+alma -> alma-9
+alma-8
+alma-9
 debian -> debian-11
 debian-10
 debian-11
 fedora-37
 amazon
 amazon-2_lts
+amazon-2023
 suse-les -> suse-les-12
 suse-les-12
 

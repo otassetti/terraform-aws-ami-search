@@ -19,6 +19,9 @@ variable "amis_os_map_regex" {
     centos              = "^CentOS.Linux.7.*x86_64.*"
     "centos-7"          = "^CentOS.Linux.7.*x86_64.*"
     "centos-9"          = "^CentOS Stream 9.*x86_64.*"
+    alma                = "^almalinux-9.*x86_64.*"
+    "alma-8"            = "^almalinux-8.*x86_64.*"
+    "alma-9"            = "^almalinux-9.*x86_64.*"
     rhel                = "^RHEL-8.*x86_64.*"
     "rhel-7"            = "^RHEL-7.*x86_64.*"
     "rhel-8"            = "^RHEL-8.*x86_64.*"
@@ -29,6 +32,7 @@ variable "amis_os_map_regex" {
     "fedora-37"         = "^Fedora-Cloud-Base-37-.*-gp2.*"
     amazon              = "^amzn-ami-hvm-.*x86_64-gp2"
     amazon-2_lts        = "^amzn2-ami-hvm-.*x86_64-gp2"
+    amazon-2023         = "^al2023-ami-.*x86_64.*"
     suse-les            = "^suse-sles-12-sp\\d-v\\d{8}-hvm-ssd-x86_64"
     "suse-les-12"       = "^suse-sles-12-sp\\d-v\\d{8}-hvm-ssd-x86_64"
     windows             = "^Windows_Server-2022-English-Full-Base-.*"
@@ -53,12 +57,16 @@ variable "amis_os_map_owners" {
     centos              = "679593333241"
     "centos-7"          = "679593333241"
     "centos-9"          = "679593333241"
+    alma                = "879944229104"
+    "alma-8"            = "879944229104"
+    "alma-9"            = "879944229104"
     debian              = "136693071363"
     "debian-10"         = "136693071363"
     "debian-11"         = "136693071363"
     "fedora-37"         = "125523088429" #Fedora
     amazon              = "137112412989" #amazon
     amazon-2_lts        = "137112412989" #amazon
+    amazon-2023         = "137112412989" #amazon
     suse-les            = "013907871322" #amazon
     "suse-les-12"       = "013907871322" #amazon
     windows             = "801119661308" #amazon
